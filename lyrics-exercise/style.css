@@ -1,0 +1,26 @@
+	body{
+		background-color: #DDDDDD;
+		font-family:sans-serif;
+	}
+	img{
+		display:block;
+		width:50%;
+		margin:auto; 
+		padding: 20px 0;}
+		#ken{
+			color:#6666ff;
+			text-align:center;
+		}
+		p{
+
+			color:#FF748c;
+			text-align:center;
+		}
+		h1{
+			text-align:center;
+			color:#CC5c70;
+		}
+		h2{
+			text-align:center;
+			color:#d67c8c;
+		}
