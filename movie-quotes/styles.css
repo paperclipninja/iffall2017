@@ -1,0 +1,22 @@
+			html{
+				font-family:sans-serif;
+			}
+			#zul{
+				color:#FF0000;
+			}
+			body{
+				background-color:#eeeeee;
+			}
+			#movietitle{
+				color:yellow;
+				font-size:36px;
+			}
+			#movieSub{
+				font-size: 24px;
+			}
+			.red {
+				color:#ff0000;
+			}
+			.script{
+				font-family: monospace;
+			}
