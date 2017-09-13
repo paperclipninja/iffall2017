@@ -1,0 +1,41 @@
+/*
+Create an html page demonstrating basic type styling using one of the font faces
+ referenced below. 
+ Clearly indicate the typeface name and size in a summary at the top of 
+ the page, then demonstrate possible values for each of the following 
+ five CSS properties with a sample sentence: font-weight, font-style, 
+ letter-spacing, text-transform, text-decoration. Place each sample on its own line. 
+ Include a label for the group that shows which css property the group demonstrates. 
+ Include a label for each line that shows which value is used.
+  Style the whole page to present your samples cleanly and clearly.
+
+*/
+body{
+	font-family:'Open Sans', sans-serif;
+background-color: oldlace;
+}
+
+
+
+.subsection{
+	background-color:white;
+}
+
+.fw .normal{font-weight: normal;}
+.fw .bold{font-weight: bold;}
+.fw .num{font-weight: 100;}
+
+.fs .obl{font-style: oblique;}
+.fs .ital{font-style: italic;}
+
+.ls .norm{letter-spacing: normal;}
+.ls .plus{letter-spacing: 5px;}
+.ls .neg{letter-spacing: -5px;}
+
+.tt .up{text-transform: uppercase;}
+.tt .lower{text-transform: lowercase;}
+.tt .caps{text-transform: capitalize;}
+
+.td .under{text-decoration: underline;}
+.td .over {text-decoration: overline;}
+.td .thru{text-decoration: line-through;}
