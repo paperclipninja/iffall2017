@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title> Controlling Web Typography</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+
+	<body>
+	<!-- 
+		ids always unique: one ID per html object
+	-->
+		<h1>Controling Web Typography</h1>
+		<div id="navigation" class="section">
+			<a href="#css-properties"> Css Properties</a><br />
+			<a href="#type-tags">Type Tags</a><br />
+			<a href="#font-services">Font Services</a><br />
+
+		</div>
+		<div id="css-properties" class="section">
+		<code>
+			<!--- 
+				css-property: values.... ends with a semicolon
+			-->
+			css-property: values
+			css-property: value1| value2 | value 3....
+			</code>
+			<h2>Font-Family</h2>
+			<code>
+				font-family: "Publico", Georgia, serif; 
+				   -->best practice: put custom fonts/uncommon in quotes
+			</code>
+			<h2>Font-Size</h2>
+			<code>
+				font-size: somenum+px |px | em | rem | %
+			</code>
+			<div class="font-size sub-section">
+				<div class="pt">
+					<code>font-size: 16pt;</code>
+					font-size: 16pt
+				</div>
+				<br />
+				<div class="px">
+					<code>font-size: 16px</code>
+					font-size:16px ;
+				</div>
+				<br />
+
+				<div class="em"> <!-- NOT RECCOMEND-->
+					<code>font-size: 1em</code>
+					font-size: 1em;
+					<div class="grandparent"> gp font-size:1em 16px
+						<div class="parent">font-size:2em 32px
+							<div class="child">font-size:2em 64px
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<br />
+				<div class="rem">
+					<code>font-size: 1rem</code>
+					font-size:1rem ;
+
+					<div class="grandparent">gp font-size:1rem 
+						<div class="parent">p font-size:2rem 
+							<div class="child">ch font-size:2rem 
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<br />
+
+				<div class="percent">
+							font-size:100% ;
+
+					<div class="grandparent">gp font-size:100%
+						<div class="parent">p font-size:200%
+							<div class="child">ch font-size:200%
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="font-weight sub-section">
+			<code> font-weight: normal | bold | 100 (+=100, n<=500),700; </code>
+				<div class="bold"> font-weight: bold;</div>
+				<div class="over700">font-weight:700;</div>
+			</div>
+			<div>
+				<div class="weight-400">font-weight:400</div>
+			</div>
+
+			<div class="font-style sub-section">
+				<div class="italic">font-style: italic</div>
+				<div class="oblique">font-style:oblique;</div>
+			</div>
+			<div class="line-height sub-section">
+				<p class="unitless"><code>lineheight: 1.45</code><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget dictum ex, id mattis diam. Curabitur ac aliquam urna. Aliquam dignissim maximus libero a tempus. Sed eget fermentum est. Integer commodo fringilla molestie. Fusce ac blandit erat, tristique lacinia dolor. Cras porta dolor leo, in tincidunt ligula consectetur eget. Praesent non tincidunt dolor, vitae finibus tortor. Ut vitae mi in lacus bibendum feugiat id sed urna. In interdum odio sed porttitor suscipit. Curabitur laoreet accumsan semper. </p>
+				<p class="px"><code>lineheight: 16px</code><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget dictum ex, id mattis diam. Curabitur ac aliquam urna. Aliquam dignissim maximus libero a tempus. Sed eget fermentum est. Integer commodo fringilla molestie. Fusce ac blandit erat, tristique lacinia dolor. Cras porta dolor leo, in tincidunt ligula consectetur eget. Praesent non tincidunt dolor, vitae finibus tortor. Ut vitae mi in lacus bibendum feugiat id sed urna. In interdum odio sed porttitor suscipit. Curabitur laoreet accumsan semper. </p>
+				<p class="em"><code>lineheight:1em</code><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget dictum ex, id mattis diam. Curabitur ac aliquam urna. Aliquam dignissim maximus libero a tempus. Sed eget fermentum est. Integer commodo fringilla molestie. Fusce ac blandit erat, tristique lacinia dolor. Cras porta dolor leo, in tincidunt ligula consectetur eget. Praesent non tincidunt dolor, vitae finibus tortor. Ut vitae mi in lacus bibendum feugiat id sed urna. In interdum odio sed porttitor suscipit. Curabitur laoreet accumsan semper. </p>
+			</div>
+			<div class="letter-spacing sub-section">
+				<code>letter-spacing:5px<br/>letter-spacing:-5px</code>
+				<p class="positive">askdlfjaskl flaskdjf lksafj alskdfjlkas</p>
+				<p class="negative"> asjldf alksdjf  alskdjflks lwkej</p>
+			</div>
+			<div class="text-align sub-section">
+			<code>text-align: left|center|right|justify</code>
+				<p class="left">kajdsh alskdfj alskdfj alsdkfj </p>
+				<p class="center"> laksdjfkl lwkej kl wejlkr lkwje</p>
+				<p class="right">asdl lkjf lk ekljlk </p>
+				<p class="justified"> kljl lkjekl w lksjd</p>
+			</div>
+			<div class="text-decoration sub-section">
+				<code>text-decoration: none|underline|overline|line-through| ALL OF THEM</code>
+				<p class="none">kajdsh alskdfj alskdfj alsdkfj</p>
+				<p class="underline">kajdsh alskdfj alskdfj alsdkfj</p>
+				<p class="overline">kajdsh alskdfj alskdfj alsdkfj</p>
+				<p class="lineth">kajdsh alskdfj alskdfj alsdkfj</p>
+				<p class="alll">EVERYTHOINGSLKGN KSLKSDF KLEJ OSNF </p>
+			</div>
+			<div class="text-transform sub-section">
+			<code>text-transform: uppercase|lowercase|capitalize</code>
+			<p class="uppercase">sklfjal lksdfj s skldfj </p>
+			<p class="lowercase"> slkdjf alsdkjf lkj lwe</p>
+			<p class="capitalize">lkasdjf alskdfj e kl</p>
+			</div>
+
+			<div class="text-indent sub-section">
+			<code>text-indent: px|percent</code>
+			<p class="px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget dictum ex, id mattis diam. Curabitur ac aliquam urna. Aliquam dignissim maximus libero a tempus. Sed eget fermentum est. Integer commodo fringilla molestie. Fusce ac blandit erat, tristique lacinia dolor. Cras porta dolor leo, in tincidunt ligula consectetur eget. Praesent non tincidunt dolor, vitae finibus tortor. Ut vitae mi in lacus bibendum feugiat id sed urna. In interdum odio sed porttitor suscipit. Curabitur laoreet accumsan semper. </p>
+			<p class="percent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget dictum ex, id mattis diam. Curabitur ac aliquam urna. Aliquam dignissim maximus libero a tempus. Sed eget fermentum est. Integer commodo fringilla molestie. Fusce ac blandit erat, tristique lacinia dolor. Cras porta dolor leo, in tincidunt ligula consectetur eget. Praesent non tincidunt dolor, vitae finibus tortor. Ut vitae mi in lacus bibendum feugiat id sed urna. In interdum odio sed porttitor suscipit. Curabitur laoreet accumsan semper. </p>
+			</div>
+			<div class="color sub-section">
+				<code> color: cssname(ie.salmon)|hexcode|rgb(red,green,blue)|rgba(red,green,blue,transparency)</code>
+					<p class="cssname">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </p>
+					<p class="hex">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget dictum ex, id mattis diam. Curabitur ac aliquam urna. </p>
+					<p class="rgb">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Psemper. </p>
+					<p class="rgba">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </p>
+			</div>
+		</div>
+	<div id="type-tags" class="section">
+		
+		<div class="block sub-section">
+			<p>paragraph</p>
+			<h1>heading 1</h1>
+			<h2>heading 2</h2>
+			<h3>headin 3</h3>
+			<h4>heading 4</h4>
+			<h5>head 5</h5>
+			<h6>head 6</h6>
+		</div>
+		<div class="inline sub-section">
+			<p><b>Paragraph</b> assdsfsdf</p>
+			<p><i>lskjdf</i> asdfasdf</p>
+			<p><em>alskdj</em>wefssefs</p>
+			<p> <strong>akjle</strong> sffwefasd</p>
+			<p> <sup>lkadj</sup> sdfwafd</p>
+			<p><span>dsdf</span> sdfsf sdfsf</p>
+		</div>
+	</div>
+	</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

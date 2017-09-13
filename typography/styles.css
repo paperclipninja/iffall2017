@@ -1,0 +1,99 @@
+/*
+ Comments*/
+
+html,
+body{
+	font-family: "Garamond 3", Georgia, serif; 
+	 /*fall back is second, 
+	 then final one is 3rd 
+	 best practice bcs some ppl don't have those fonts*/
+	background-color: oldlace;
+}
+#navigation{
+	background-color:lightsalmon;
+}
+.section {
+	padding: 24px;
+}
+.font-size{
+
+}
+code{
+	display:block;
+}
+.sub-section{
+	background-color:white;
+	margin:24px;
+}
+/*^absolute value*/
+.pt{
+	font-size: 16pt;	/*one pt=1/72in*/
+}
+.px{
+	font-size:16px; /*one px=1/96in*/	
+}
+/*relative units */
+.em{font-size: 1em; /*in most browsers 1em=16px*/	}
+	.em .grandparent{font-size:1em; /*however relative  based on thing above*/	}
+		.em .grandparent .parent{	font-size: 2em; 	}
+			.em .grandparent .parent .child{	font-size: 2em;	}
+/*1rem=16px. doeds not compound. references fonsize as given to html. default usually 16*/
+.rem{font-size: 1rem;	}
+	.rem .grandparent{font-size:1rem; /*however relative  based on thing above*/	}
+		.rem .grandparent .parent{	font-size:2rem; 	}
+			.rem .grandparent .parent .child{	font-size:2rem;	}
+.percent{font-size: 100%;	}
+	.percent .grandparent{font-size:100%; /*however relative  based on thing above*/	}
+		.percent .grandparent .parent{	font-size:200%; 	}
+			.percent .grandparent .parent .child{	font-size:200%;	}
+.font-weight{
+
+}
+.font-weight .bold{font-weight:bold;}
+.font-weight .over700{font-weight:700;}
+.font-weight .weight{font-weight:400;}
+
+.font-style .italic{font-style:italic;} /*specific ITALIC FONT*/
+.font-style .oblique{font-style:oblique;} /*skewed type, same typeface not actually italic*/
+
+.line-height .unitless{line-height:1.45;} /*unitless value sets line height as value*fontsize*/
+.line-height .px{ font-size:32px; line-height:16px;}
+.line-height .em{line-height:1em;}
+
+.letter-spacing .positive{ letter-spacing:5px; }
+.letter-spacing .negative{letter-spacing:-5px;}
+
+.text-align p{
+	width:300px;
+}
+.text-align .left{text-align: left}
+.text-align .center{text-align: center}
+.text-align .right {text-align: right}
+.text-align .justified{text-align: justify}
+
+.text-decoration .none{text-decoration: none}
+.text-decoration .underline{text-decoration: underline;}
+.text-decoration .overline{text-decoration: overline;}
+.text-decoration .lineth{text-decoration: line-through;}
+.text-decoration .alll{text-decoration: overline underline wavy aquamarine;}
+.text-transform .uppercase{text-transform: uppercase;}
+.text-transform .lowercase{text-transform: lowercase;}
+.text-transform .capitalize{text-transform: capitalize;}
+
+.text-indent .px{text-indent: 45px}
+.text-indent .percent{text-indent: 45%}
+.color p{
+	font-size: 3rem; font-weight: bold; text-transform: uppercase;}
+.color .cssname{color:lightsalmon;}
+.color .hex{color:#00FFAB;}
+.color .rgb{color:rgb(255,160,122);}
+.color .rgba{color:rgba(255,160,122,.5);} /*alpha: 0<=n<=1*/
+
+
+
+
+
+
+
+
+
