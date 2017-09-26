@@ -1,0 +1,42 @@
+	body{
+		font-family:sans-serif;
+		    background-image: url("horse.png");
+    background-repeat: repeat;
+
+	}
+	img{
+		display:block;
+		width:50%;
+		margin:auto; 
+		padding: 20px 0;}
+		.lyrics{
+			text-align:center;
+			color:#FF748c;
+			line-height: 20px;
+		}
+		.lyrics .ken{
+			color:#6666ff;
+			text-align:center;
+			font-weight: bold;
+			letter-spacing: 5px
+		}
+		p{
+			opacity:1;
+			color:#FF748c;
+			text-align:center;
+		}
+		h1{
+			opacity:1;
+			text-align:center;
+			color:#CC5c70;
+		}
+		h2{
+			opacity: 1;
+			text-align:center;
+			color:#d67c8c;
+		}
+		.lyrics .chorus{
+			opacity: 1;
+			font-family: 'Indie Flower', cursive;
+			text-align:center;
+		}
