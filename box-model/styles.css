@@ -1,0 +1,134 @@
+
+body {
+	font-family: 'Archivo Narrow', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url("https://wudesign.me/resources/html_tracing/images/bg.png");
+	background-position: center top;
+	min-height: 2315px;
+}
+.section h2{
+	font-size: 42px;
+	text-align: center;
+}
+#heading{
+	background-image: url("images/firstbgimg.jpeg");
+    background-size: cover;
+    color:white;
+	
+	height: 480px;
+	margin-top: 0;
+}
+#heading h1{
+	margin-top:0;
+	padding-top: 154px;
+	font-size:81px;
+	text-align: center;
+	padding-bottom: 0;
+	margin-bottom: 0;
+
+}
+#heading h3{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top:0;
+	font-size:30px;
+	text-align: center;
+	padding-bottom: 175px;
+}
+#first p{
+	float:left;
+	padding-top: 0;
+	margin-top: 0;
+	font-size: 18px;
+	padding-left: 10px;
+	padding-bottom:10px;
+}
+#first{
+
+    color:white;
+	padding-top: 5px;
+	padding-left:  240px;
+	padding-right: 240px;
+	background-color: grey;
+	height: 645px;
+
+}
+#second{
+	margin-top: 0;
+	padding-top: 2px;
+	padding-left:  340px;
+	padding-right: 350px;
+	background-color: darkblue;
+	color:white;
+	height: 750px;
+
+	padding-bottom:0;
+	margin-bottom: 0;
+}
+#second h2{
+	padding-top:0px;
+	padding-bottom: 0;
+}
+table{
+ border: 1px solid black;
+ margin-top: -5px;
+	vertical-align: top;
+	vertical-align: text-top;
+	padding-top: 0;
+}
+table p{
+	padding-top: 0;
+	padding-right: 0;
+
+}
+th{
+	padding-top: 0;
+	font-size: 20px;
+	text-align: left;
+	padding-left:0;
+	padding-right:10px;
+}
+th .tabimg{
+	padding: 0px 15px 20px 20px;
+	height:150px;
+	width: 200px;
+	float:left;
+}
+th p{
+	padding-top: 0;
+	padding-right: 20px
+}
+
+#third{
+	margin-top: 0;
+	padding-top: 30px;
+	padding-left:  450px;
+	padding-right: 445px;
+	background-color: orange;
+	height: 350px;	
+}
+#third p{
+	padding-top:0;
+	margin-top:0;
+	font-size: 28px;
+}
+
+#final{
+	padding-top: 40px;
+	padding-bottom:40px;
+	text-align: center;
+	font-size:20px;
+	color:white;
+	background-color: green;
+	padding-left:350px;
+	padding-right: 350px;
+}
+
+
+.image{
+	padding-left: 20px;
+	padding-bottom: 25px;
+	padding-right:10px;
+	float:right;
+}
