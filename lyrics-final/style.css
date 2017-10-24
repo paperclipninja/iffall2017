@@ -1,0 +1,113 @@
+	body{
+		font-family:sans-serif;
+	/*	    background-image: url("horse.png");
+    background-repeat: repeat;*/
+    background-color:white;
+
+	}
+	img{
+
+		display:block;
+		width:25%;
+		position:fixed;
+		float:left;
+		margin:auto; 
+		padding: 12% 0;
+		padding-left: 5%;
+	}
+	.giff{
+		padding-top: 15%;
+	}
+
+		.lyrics{
+			padding-top: 20%;
+			margin-right: 25%;
+			text-align:left;
+			float:right;
+			color:#FF748c;
+			line-height: 20px;
+		}
+		.lyrics .ken{
+			color:#6666ff;
+			text-align:left;
+			font-weight: bold;
+			letter-spacing: 5px;
+
+			text-transform:uppercase;
+		}
+		p{
+			z-index: -1;
+			opacity:1;
+			color:#FF748c;
+			text-align:left;
+			font-size:25px;
+		}
+		.titleDiv{
+			padding-top: 20px;
+			background: #ffcce0;
+			position: fixed;
+			top:0;
+			width:100%;
+			
+		}
+		#lastDiv{
+			padding-top: 20px;
+			background: #ffcce0;
+			position: fixed;
+			bottom:0;
+			height:20%;
+			width:100%;
+			
+		}
+		h1{
+		text-transform: uppercase;
+			opacity:1;
+			font-size: 75px;
+			text-align:left;
+			color:#CC5c70;
+			padding-bottom: 0px;
+			margin-top:-1%;
+		}
+		h2{
+			padding-top: 0px;
+			margin-top: -5%;
+			opacity: 1;
+			font-size: 50px;
+			text-transform: uppercase;
+			text-align:left;
+			color:#d67c8c;
+		}
+
+		a{
+			color:black;
+			text-decoration: none;
+
+		}
+		a:hover {
+				color: pink;
+				text-decoration: none;
+			}
+
+		.lyrics .chorus{
+			opacity: 1;
+			font-family: sans-serif;
+			text-align:left;
+		}
+		.barbieBottomPic{
+			opacity: .5;
+			z-index: -5;
+			width:50%;
+			position:absolute;
+			top: 0;
+			right:0;
+
+		}
+				.barbieBottomPic2{
+			opacity: .5;
+			z-index: -5;
+			width:50%;
+			position:absolute;
+			top: 100%;
+			left:0;
+
+		}
