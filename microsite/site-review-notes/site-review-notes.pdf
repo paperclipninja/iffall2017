@@ -1,0 +1,16 @@
+	
+Meet with your Designer, and review the site they've created. Discuss what works, and what needs to change. Make a point of assessing what actually exists on the screen, not what exists in the designer's mind. Be sure to test navigation and other points of interaction. Also test responsiveness if applicable. Make a plan for improvements, and post your notes from the discussion here. Include at least three areas for improvement.
+
+Working! Images are good!
+		format looks good too. there's hover stuff going on which is nice
+		responsiveness got started/images resize though there are sstill some issues
+
+not working as well:
+		legibility: at some points its hard to read text, maybe increase pt size or but a very transparent background
+		menu bar doesn't fill up bottom
+
+
+potentially move menu to top if going to switch to a one page layout?
+
+
+areas of improvement: legibility, navigation, autolayout stuff
